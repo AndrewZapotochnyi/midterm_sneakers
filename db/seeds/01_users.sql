@@ -39,5 +39,7 @@ INSERT INTO users (id, name, email) VALUES (37, 'Johan Halvorson', 'emmy.hilpert
 INSERT INTO users (id, name, email) VALUES (38, 'Ashly Koch', 'franecki.myah@shayne.net');
 INSERT INTO users (id, name, email) VALUES (39, 'Bianka Spinka', 'jensen.ullrich@hotmail.com');
 INSERT INTO users (id, name, email) VALUES (40, 'Dewitt Sipes', 'hildegard.gaylord@hotmail.com');
+INSERT INTO users (id, name, email) VALUES (41, 'Andrew Zapotochnyi', 'andrewzapotochnyi@icloud.com');
+INSERT INTO users (id, name, email) VALUES (42, 'Neihy Nocnir', 'neihy.rincon@gmail.com');
 
-ALTER SEQUENCE users_id_seq RESTART WITH 41;
+ALTER SEQUENCE users_id_seq RESTART WITH 43;

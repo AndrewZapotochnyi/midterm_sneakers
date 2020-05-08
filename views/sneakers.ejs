@@ -51,12 +51,18 @@
       </div>
     <!-- List of Products for everybody-->
     <main class="main">
+      <!-- filtering-->
       <div class="filter-wrap">
         <h1>Sneakers For Sale</h1>
-        <form class="range-field my-4 w-25">
-          <label for="filterPrice">Filter By Price</label>
-          <input type="range" class="custom-range" min="20" max="300" />
-        </form>
+          <label for="filterPrice">Filter By Price : </label>
+              <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Sort By
+                </button>
+                <div class="dropdown-menu">
+                  Price Hight To Low
+                </div>
+              </div>
       </div>
       <section class="shoes-by-seller">
           <% for(let each of sneakers) { %>
